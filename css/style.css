@@ -11,4 +11,59 @@
 
 body {
     background-color: var(--color-primary-white);
+    color: var(--color-primary-dark);
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+   background-color: var(--color-primary-blue);
+   font-size: 18px;
+   color: var(--color-primary-white);
+   border: 2px solid var(--color-primary-blue);
+   border-radius: 32px;
+   cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark);
+}
+
+.link{
+    color: var(--color-primary-dark);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-primary-blue);
+    font-weight: 600;
+}
+
+.hero-title {
+    font-family: "Play", sans-serif;
+    font-size: 140px;
+    font-weight: 900;
+    color: var(--color-primary-blue);
+    
+}
+
+.section-title {
+    font-family: "Play";
+    font-weight: bold;
+    color: var(--color-primary-dark);
+    line-height: 1.5;
+}
+
+.section-title .brand {
+    color: var(--color-primary-blue);
+}
+
+.accent {
+    font-weight: 900;
+    color: var(--color-primary-dark);
 }
