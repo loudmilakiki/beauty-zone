@@ -1,0 +1,52 @@
+.procedures-section {
+     padding-top: 80px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        width: 1216px;
+        height: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+       
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        display: block;
+        text-align: center;
+        font-size: 64px;
+        font-family: "Play", sans-serif;
+    }
+
+    &__list {
+        height: 456px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 32px;
+        gap: 32px;
+    }
+
+    &__slider {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    &__button {
+        margin: 247px auto;
+    }
+
+    // &__button {
+    //     display: none;
+    // }
+}
+
+.procedures-section__title .brand {
+    color: var(--color-primary-blue);
+    font-size: 64px;
+}

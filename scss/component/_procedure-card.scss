@@ -1,0 +1,23 @@
+.procedure-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+     height: 440px;
+     /* box-shadow: 10px 6px 4px 4px violet; */
+ 
+     
+     
+  &__image {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+ &__text {
+     font-size: 14px;
+     font-weight: 300;
+     color: var(--color-primary-light);
+  }
+  }

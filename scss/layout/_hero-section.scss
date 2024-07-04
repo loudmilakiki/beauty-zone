@@ -1,0 +1,52 @@
+
+.hero-section {
+    padding: 124px 0;
+    background-image: linear-gradient(
+        to right,                     /* Направление градиента */
+        rgba(255, 255, 255, 1) 15%,       /* Непрозрачный белый цвет */
+        rgba(255, 255, 255, 0) 100%       /* Прозрачный */
+      ),
+      url("../images/image 1576.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    &__container {
+        max-width: 560px;
+        padding-left: 50px;
+    }
+
+    &__face {
+        width: 530px;
+        height: 265px;
+        margin-bottom: 24px;
+    }
+
+    
+&__brand {
+    margin: 0;
+    font-family: "Play", sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    padding: 24px 0 24px 0;
+    color: var(--color-primary-blue);
+    line-height: 0.8;
+}
+
+&__title {
+    font-size: 18px;
+}
+
+&__button {
+    padding-top: 16px;
+}
+}
+
+
+
+
+.button-terms {
+    padding: 16px 12px;
+    max-width: 240px;
+    font-size: 12px;
+}
