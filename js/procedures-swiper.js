@@ -6,7 +6,6 @@ const swiper = new Swiper('.swiper-container', {
       768: {
         slidesPerView: 2,
       },
-      // when window width is >= 640px
       1280: {
         slidesPerView: 3,
       }

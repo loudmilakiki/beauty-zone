@@ -1,36 +1,53 @@
 .about-us-section {
 
     &__containers {
-       width: 1240px;
-       display: flex;
-       gap: 10px;
-       padding-top: 40px;  
-       margin-left: 100px; 
+       
+
+       @media screen and (min-width: $bp-desktop) {
+        width: 1240px;
+        display: flex;
+        gap: 10px;
+        padding-top: 40px;  
+        margin-left: 100px;
+       }
     }
 
     &__text {
-       width: 710px;
-       height: 456px;
+       width: 100%;
        padding-top: 40px;
+
+       @media screen and (min-width: $bp-desktop) {
+        width: 710px;
+       height: 456px;
+       }
 
     }   
 
     &__pic {
+        display: none;
+
+    @media screen and (min-width: $bp-desktop) {
         width: 500px;
         height: 695px;
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
+    }
     
     &__title {
-        width: 530px;
+      
     font-family: "Play";
     font-weight: bold;
-    font-size: 64px;
+    font-size: 32px;
     color: var(--color-primary-dark);
     line-height: 1.1;
     padding-left: 12px;
+
+    @media screen and (min-width: $bp-desktop) {
+        width: 530px;
+        font-size: 64px;
+    }
     }
 
     &__block-aft {
@@ -62,7 +79,11 @@
 
 .about-us-section__title .brand {
     color: var(--color-primary-blue);
-    font-size: 64px;
+    font-size: 32px;
+
+    @media screen and (min-width: $bp-desktop) {
+        font-size: 64px;
+    }
 }
 
 .about-us-section__info .accent {
